@@ -553,8 +553,10 @@ span {
         margin-bottom: 3rem;
     }
 
-    .portfolio-container{
-        grid-template-columns: repeat(2, 1fr);
+     .portfolio-container {
+        grid-template-columns: 1fr; /* Single column */
+        grid-template-rows: repeat(2, auto); /* Two rows, auto height */
+        row-gap: 7rem;
     }
 
 }
