@@ -7,6 +7,8 @@
 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+
 
 
     <!-- linking css  -->
@@ -38,10 +40,11 @@
             <h3>Hello, Its's Me</h3>
             <h1>Akash C V</h1>
             <h3>And I'm a <span class="multiple-text"> </span></h3>
-            <p>"I am passionate about technology and problem-solving, currently pursuing my Master's in Computer Applications. 
-                With a keen interest in software development, IoT, and system design, I'm always eager to learn and explore new technologies. 
-                My journey so far has been a blend of academic projects and hands-on experience in building real-world applications. 
-                I aim to contribute innovative solutions to the tech world and grow as a developer." </p>
+            <p>"I am passionate about technology and problem-solving, and I have successfully completed my Master’s in Computer Applications (MCA). 
+                With a keen interest in software development, IoT, and system design, I am always eager to learn and explore new technologies. 
+                My journey so far has been a blend of academic projects and hands-on experience in building real-world applications, including full-stack development and chatbot-based solutions. 
+                I aim to contribute innovative ideas to the tech world and continue growing as a developer."
+             </p>
                 <div class="social-media">
                     <a href="mailto:akashcv432@gmail.com" class="mail"><i class='bx bxs-envelope'></i></a>
                     <a href="https://wa.me/+916238027683" class="whatsapp"><i class='bx bxl-whatsapp-square'></i></a>
@@ -49,7 +52,7 @@
                     <a href="https://www.linkedin.com/in/akash-c-v-862382245" class="linkedin"><i class='bx bxl-linkedin-square'></i></a>
                 </div>
                 
-                <a href="resume/Resume.pdf" class="btn">Download resume</a>
+                <a href="resume/Akash_CV.pdf" class="btn">Check out my resume</a>
             </div>
                 <div class="home-img">
                     <img src="images\me.png" alt="">
@@ -68,25 +71,27 @@
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <!-- <h3>Mca student</h3> -->
-            <p>Hi, I’m Akash C V, a Developer with a passion for technology and problem-solving. Currently,
-                 I am pursuing my Master's in Computer Applications (MCA) after completing my Bachelor of Science in Computer Science,
-                 where I achieved a 4th rank in my university with 91% marks.</p>
+            <p>Hi, I’m Akash C V, a developer with a passion for technology and problem-solving. I have successfully completed my Master’s in Computer Applications (MCA) with a CGPA of 8.7 after graduating with a Bachelor of Science in Computer Science, 
+                where I achieved 4th rank in my university with 91% marks.</p>
 
             <div id="more-details">
                 <h4>My Journey</h4>
-                <p>My academic journey has been filled with learning and growth. In 2023, I graduated with a BSc in Computer Science, which laid a solid foundation for my technical skills and critical thinking.
-                     I have developed a keen interest in creating innovative solutions that improve user experience and efficiency through hands-on projects and theoretical knowledge.
-                    </p>
+                <p>My academic journey has been filled with continuous learning and growth. In 2023, I graduated with a BSc in Computer Science, which laid a strong foundation for my technical skills and critical thinking. To further enhance my expertise, 
+                    I went on to complete my Master of Computer Applications (MCA) from the Department of Information Technology, Kannur University, with a CGPA of 8.7. This advanced program strengthened my knowledge in software development, database systems, and modern technologies. 
+                I have developed a keen interest in creating innovative solutions that improve user experience and efficiency through hands-on projects and theoretical understanding.
+            </p>
                 <h4>Skills and Expertise</h4>
                 <p>I am proficient in various programming languages, including:</p>
                 <ul class="skills-list">
+                    <li>Python</li>
+                    <li>React</li>
+                    <li>Java</li>
                     <li>C</li>
                     <li>C++</li>
-                    <li>Python</li>
-                    <li>Java</li>
                     <li>SQL</li>
                     <li>HTML</li>
                     <li>JavaScript</li>
+                    <li>CSS</li>
                 </ul>
 
                 <!-- <h4>Projects</h4>
@@ -109,21 +114,6 @@
       </section>
 
      
-      <!-- projects section design -->
-       <!-- <section class="projects" id="projects">
-            <h2 class="heading">My <span>Projects</span></h2>
-            <div class="projects-container">
-                <div class="projects-box">
-                    <i class='bx bx-code-alt'></i>
-                    <h3>Web Development</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
-                        alteration in some form, by injected humour,</p>
-                        <a href="#" class="btn">Read More</a>
-                </div>
-  
-            </div> -->
-
-
        </section>
 
        <!-- portfolio section design -->
@@ -131,33 +121,117 @@
             <h2 class="heading">Latest <span>Project</span></h2>
 
             <div class="portfolio-container">
+               <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Traffic Light Detection and Color Recognition App</h4>
+                        <p>
+                         Developed a Flutter-based mobile application to assist color-blind drivers by detecting
+                         traffic light colors in real time.
+                        </p>
+
+                  
+
+                        <a href="javascript:void(0)"
+                        class="github-btn"
+                        title="More about the project"
+                        onclick="openProjectModal(this)"
+                        data-title="Traffic Light Detection and Color Recognition App"
+                        data-tech="Flutter, Python, OpenCV, TensorFlow, Flask"
+                        data-desc="This mobile app assists colour-blind users by detecting traffic light colours in real time using machine learning and image processing. It provides both text and audio feedback to enhance road safety."
+                        data-github="https://github.com/Akashcv1426/Traffic-light"
+                        data-images="images/traffic light/3.png,images/traffic light/2.png,images/traffic light/4.png">
+                        <i class='bx bx-link-external'></i>
+                        </a>
+
+                     </div>
+                </div>
+
+
+
                 <div class="portfolio-box">
                     <img src="images/portfolio1.jpg" alt="">
                     <div class="portfolio-layer">
-                        <h4>Traffic Light Detection and Color Recognition App </h4>
-                        <p>Developed a Flutter-based mobile application to assist color-blind drivers by detecting traffic light  colors in real time.  
-                            Implemented a machine learning model for color recognition and integrated it into a Flask  backend for processing.  
-                            Provided both audio and text-based feedback to enhance accessibility and improve road safety.  
-                            Utilized OpenCV and TensorFlow for image processing and color classification.</p>
-                          <a href="#"><i class='bx bx-link-external' ></i></a>  
+                        <h4>Chatbot for Company-Specific Data Queries, FAQs, and Report Generation</h4>
+                        <p>Developed a multilingual, company-specific chatbot system for automated customer interaction and data reporting.
+                            Enabled secure company registration with isolated database connections and unique chatbot access links.
+                            Implemented Mistral for intent detection and dynamic SQL query generation, with reports exported as downloadable PDFs.
+                            Integrated Seamless M4T for multilingual voice input/output, supporting both guest and registered users with role-based features.</p>
+                          
+                            <a href="javascript:void(0)"
+                        class="github-btn"
+                        title="More about the project"
+                        onclick="openProjectModal(this)"
+                        data-title="Chatbot for Company-Specific Data Queries, FAQs, and Report Generation"
+                        data-tech="React, Python, MySQL, Flask, Tailwind CSS,Mistral Model (Natural Language to SQL Generation), Seamless M4t (Multilingual Speech Recognition)
+                         Json Web Token (JWT) Authentication, "
+                        data-desc="Developed a multilingual, company-specific chatbot system for automated customer interaction and data reporting. The platform allows companies to securely register by providing essential details and database credentials, generating a unique chatbot link connected to their own database for isolated data access.
+Users—both guests and registered—can interact with the chatbot using text or voice to ask FAQs, general questions, or request data-driven reports. The chatbot utilizes the Mistral model for intent detection and dynamic SQL query generation, retrieving relevant data and exporting reports as downloadable PDFs.
+For voice interactions, Seamless M4T is integrated to transcribe multilingual audio inputs into English and provide voice-based responses, improving accessibility. Registered users benefit from persistent chat history, while guest users interact anonymously.
+The system includes a company dashboard for profile management, database configuration, and user activity monitoring, along with an admin panel to manage companies and control chatbot behavior guidelines. Overall, the project delivers a secure, scalable, and user-friendly solution for multilingual customer support and automated data retrieval.
+"
+                        data-github="https://github.com/Akashcv1426/chatbot"
+                        data-images="images/Chatbot/1.png,images/Chatbot/2.png,images/Chatbot/3.png">
+                        <i class='bx bx-link-external'></i>
+                        </a>
+                          
+                            <!-- <a href="https://github.com/Akashcv1426/chatbot" target="_blank" title="View on GitHub"><i class='bx bx-link-external' ></i></a>   -->
                     </div>
                 </div>
 
-                <div class="portfolio-box">
+                <!-- <div class="portfolio-box">
                     <img src="images/portfolio1.jpg" alt="">
                     <div class="portfolio-layer">
                         <h4>Farmer Helping Site</h4>
                         <p>This project is designed to assist farmers in buying and selling agricultural items, 
                             accessing essential information from nearby agricultural offices, and staying updated on government-related details. 
                             The platform also allows farmers to connect with one another, fostering a collaborative community for better resource sharing and support.</p>
-                          <a href="#"><i class='bx bx-link-external' ></i></a>  
+                          
+                            <a href="javascript:void(0)"
+                        class="github-btn"
+                        title="More about the project"
+                        onclick="openProjectModal(this)"
+                        data-title="Farmer Helping Site"
+                        data-tech="Python, Flask, Javascript, Html, CSS,MySQL"
+                        data-desc="his project is a farmer-focused platform developed to support agricultural communities by enabling the buying and selling of farming products and equipment. It provides easy access to important information from nearby agricultural offices and keeps farmers updated with the latest government schemes and announcements. Additionally, the platform encourages collaboration by allowing farmers to connect with each other, promoting resource sharing, communication, and community support."
+                        data-github="#"
+                        data-images="">
+                        <i class='bx bx-link-external'></i>
+                        </a>
+                          
                     </div>
-                </div>
+                </div> -->
 
                 
+
+                <!-- new modal open -->
+
+                <div id="projectModal" class="project-modal">
+                <div class="project-modal-content">
+
+                    <span class="close" onclick="closeProjectModal()">&times;</span>
+
+                    <h3 id="modalTitle"></h3>
+
+                    <div class="project-images" id="modalImages"></div>
+
+                    <h4>Technologies Used</h4>
+                    <p id="modalTech"></p>
+
+                    <h4>Description</h4>
+                    <p id="modalDesc"></p>
+
+                    <a id="modalGithub" target="_blank" class="github-btn">
+                    View on GitHub
+                    </a>
+
+                </div>
+                </div>
+
             </div>
 
         </section>
+
         <!-- Contact section design -->
         
 
