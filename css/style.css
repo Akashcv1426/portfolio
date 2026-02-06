@@ -234,6 +234,9 @@ span {
 }
 
 /* more details */
+.internship-list {
+  text-align: justify;
+}
 .skills-list {
   list-style-type: none; /* Remove default list styles */
   padding: 0; /* Remove default padding */
